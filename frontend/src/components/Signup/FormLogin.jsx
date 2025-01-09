@@ -76,7 +76,7 @@ const FormLogin = () => {
                 <button onClick={ submit} className='py-[10px] px-[25px] bg-yellowLike font-bold text-brown hover:bg-yellow-400' type='submit'>
                     Login
                 </button>
-                <p className='mt-[10px] text-white lg:text-gray-700'>Don't have an account <span className='italic font-bold cursor-pointer hover:text-brown hover:underline ' onClick={() => navigate('/signup')}>Signup</span></p>
+                <p className='mt-[10px] text-white lg:text-gray-700'>Don't have an account <span className='italic font-bold cursor-pointer lg:hover:text-gray-400 lg:hover:text-brown hover:underline ' onClick={() => navigate('/signup')}>Signup</span></p>
             </div>
           </form>
   )

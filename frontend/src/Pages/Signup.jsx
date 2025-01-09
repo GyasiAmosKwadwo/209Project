@@ -23,7 +23,7 @@ const Signup = () => {
           <Form />
             
          {/** Sign-up with google */}
-          <div className='z-50 mt-[30px] mb-[10px] w-[80%] bg-white lg:bg-gray-500 w-full py-[0.5px]'></div>
+          <div className='z-50 mt-[30px] mb-[10px] bg-white lg:bg-gray-500 w-[80%] py-[0.5px]'></div>
 
           <div className='z-50 mb-[10px] bg-white flex justify-center items-center gap-x-[12px] h-[40px] w-[55%] p-[7px] rounded-[20px] border-2 border-yellowLike'>
             <div className="icon ">
@@ -47,7 +47,8 @@ const Signup = () => {
       <Form />
 
       {/** Sign-up with google */}
-      <div className='z-50 mt-[30px] mb-[10px] w-[80%] bg-gray-500 w-full py-[0.5px]'></div>
+      <div className='z-50 mt-[30px] mb-[10px] w-[80%] bg-gray-500 py-[0.5px]'></div>
+
 
       <div className='z-50 bg-white flex justify-center items-center gap-x-[12px] h-[40px] w-[55%] p-[7px] rounded-[20px] border-2 border-yellowLike'>
         <div className="icon ">
